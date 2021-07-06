@@ -1,8 +1,40 @@
-.App {
-  text-align: center;
+.person{
+  /* margin: 0.5rem auto; */
+  width: 90%;
+  max-width: 20rem;
+  list-style: none;
+}
+.person ul{
+  list-style: none;
+  padding: 0.5rem 0.1rem;
 }
 
-.App-logo {
+.person li{
+  height: 5rem;
+  /* margin: 0.5rem; */
+  padding: 0.5rem;
+}
+
+.button{
+  width: 90%;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  font:inherit;
+  align-items: center;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #7596E5;
+}
+/* .App {
+  text-align: center;
+} */
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +67,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
