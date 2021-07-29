@@ -10,6 +10,7 @@ const PersonDetail = (props) => {
         <div className="col2">
             <h4>{props.name}</h4>
             <p>{props.age}</p>
+    <p>hello</p>
     </div>
     </article>
   )
